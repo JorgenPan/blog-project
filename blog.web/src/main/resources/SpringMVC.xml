@@ -13,10 +13,12 @@
 	<!-- Spring 来扫描指定包下的类，并注册被@Component，@Controller，@Service，@Repository等注解标记的组件 -->
 	<mvc:annotation-driven />
 	
+	<mvc:default-servlet-handler />
+	
 	<!-- 配置SpringMVC的视图解析器-->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
 </beans>

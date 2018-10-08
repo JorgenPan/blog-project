@@ -34,19 +34,7 @@
         <filter-name>encodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-    
-	<servlet-mapping>    
-	<servlet-name>default</servlet-name>
-	<url-pattern>*.js</url-pattern>    
-	<url-pattern>*.css</url-pattern>
-	<url-pattern>*.jpg</url-pattern>
-	<url-pattern>*.jpeg</url-pattern>
-	<url-pattern>*.png</url-pattern>
-	<url-pattern>*.git</url-pattern>
-	<url-pattern>*.eof</url-pattern>
-	<url-pattern>*.woff</url-pattern>
-	</servlet-mapping>
-
+ 
 
     <!-- 配置DispatcherServlet -->
     <servlet>
